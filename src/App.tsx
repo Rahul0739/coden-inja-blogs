@@ -21,7 +21,7 @@ function App() {
 
   useEffect(() => {
     getBlog();
-  }, []);
+  });
 
   const getBlog = async () => {
     blogsContent.forEach((file) => {
