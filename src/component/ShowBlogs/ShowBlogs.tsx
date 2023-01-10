@@ -26,7 +26,7 @@ function ShowBlogs() {
                 <img
                   className="w-100"
                   src={post.data.HeaderImage}
-                  alt="Article Image"
+                  alt="headerImage"
                 />
                 <div className="p-4">
                   <div>

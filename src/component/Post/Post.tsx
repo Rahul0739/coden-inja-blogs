@@ -31,11 +31,9 @@ function Post(Props: IProps) {
                   <AiOutlineArrowRight />
                 </span>
               </Link>
-              <a>
-                <span>
-                  <span>{post.readTime.text}</span>
-                </span>
-              </a>
+              <span>
+                <span>{post.readTime.text}</span>
+              </span>
             </div>
           </div>
         );
