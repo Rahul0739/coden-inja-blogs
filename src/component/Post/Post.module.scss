@@ -1,0 +1,70 @@
+.posts {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  width: 24rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-radius: 0.25rem;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.posts .abstract {
+  --tw-text-opacity: 1;
+  color: rgb(31 41 55 / var(--tw-text-opacity));
+  line-height: 1.625;
+}
+
+.posts h2 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
+  font-weight: 600;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.learnmore {
+  margin-top: 1.2rem;
+  padding-bottom: 0.5rem;
+  border-bottom-width: 2px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  border-bottom: 2px solid rgb(208 205 205);
+}
+
+a {
+  --tw-text-opacity: 1;
+  color: rgb(67 56 202 / var(--tw-text-opacity));
+  align-items: center;
+  text-decoration: inherit;
+}
+
+.arrow {
+  position: relative;
+  padding-left: 0.25rem;
+}
+
+.topic p {
+  letter-spacing: 0.1em;
+  padding: 3px;
+  background: #dfdfe5;
+  color: blue;
+  border-radius: 5px px;
+  font-weight: 5000;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-radius: 5px;
+  margin: 0;
+  position: relative;
+  top: 7px;
+}

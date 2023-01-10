@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: #e6ecec;
+}
+
+.navbar div {
+  margin: 12px;
+}
+
+.icon {
+  position: relative;
+  padding-right: 6px;
+}
+.blogText {
+  color: black;
+}
+.blogText:hover span {
+  color: rgb(82, 82, 188) !important;
+}
+
+.blogText:hover svg {
+  color: rgb(82, 82, 188) !important;
+}
+
+// .blogText:hover {
+//   color: rgb(82, 82, 188) !important;
+// }
