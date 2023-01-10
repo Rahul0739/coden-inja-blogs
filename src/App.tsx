@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 // import { useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./component/Home/Home.lazy";
-import Navbar from "./component/Navbar/Navbar.lazy";
+// import Navbar from "./component/Navbar/Navbar.lazy";
 import ShowBlogs from "./component/ShowBlogs/ShowBlogs.lazy";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
