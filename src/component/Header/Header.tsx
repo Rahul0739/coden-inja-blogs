@@ -9,7 +9,7 @@ function Header(Props: IProps) {
   return (
     <div>
       <div className={styles.header}>
-        <p>Bits-0f-Code</p>
+        <p>C0DEN-INJA</p>
         <h1 style={{ marginLeft: "20px" }}>
           <span>Explore </span>
           <span style={{ color: "#a855f7" }}>Learn </span> <span>Build 🚀</span>
