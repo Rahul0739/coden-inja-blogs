@@ -10,10 +10,10 @@ function Header(Props: IProps) {
     <div>
       <div className={styles.header}>
         <p>C0DEN-INJA</p>
-        <h1 style={{ marginLeft: "20px" }}>
+        <p style={{ marginLeft: "20px", fontSize: "40px" }}>
           <span>Explore </span>
           <span style={{ color: "#a855f7" }}>Learn </span> <span>Build 🚀</span>
-        </h1>
+        </p>
       </div>
     </div>
   );
