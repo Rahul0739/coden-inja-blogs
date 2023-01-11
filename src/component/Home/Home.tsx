@@ -8,7 +8,7 @@ function Home(Props: IProps) {
       style={{
         position: "absolute",
         width: "100%",
-        marginTop: "100px",
+        marginTop: "10px",
       }}
     >
       <Header />
