@@ -69,6 +69,14 @@ a {
   top: 7px;
 }
 
+.titleLink {
+  color: rgb(54, 53, 53);
+}
+
+.titleLink:hover {
+  color: rgb(92, 92, 231);
+}
+
 @media only screen and (max-width: 760px) {
   /* styles for browsers larger than 960px; */
   .posts {

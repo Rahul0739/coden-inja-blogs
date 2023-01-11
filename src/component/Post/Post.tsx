@@ -18,7 +18,16 @@ function Post(Props: IProps) {
             <div className={styles.topic}>
               <p>{post.data.Topic}</p>
             </div>
-            <h2>{post.data.Title}</h2>
+            <h2>
+              <Link
+                to={`/blogs/${String(
+                  post.data.Title.split(" ").join("-").toLowerCase()
+                )}`}
+                className={styles.titleLink}
+              >
+                {post.data.Title}
+              </Link>
+            </h2>
             <p className={styles.abstract}>{post.data.Abstract}..</p>
             <div className={styles.learnmore}>
               <Link
