@@ -1,7 +1,7 @@
 .posts {
   padding-left: 2rem;
   padding-right: 2rem;
-  width: 24rem;
+  width: 33%;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   border-radius: 0.25rem;
@@ -67,4 +67,11 @@ a {
   margin: 0;
   position: relative;
   top: 7px;
+}
+
+@media only screen and (max-width: 760px) {
+  /* styles for browsers larger than 960px; */
+  .posts {
+    width: 100%;
+  }
 }

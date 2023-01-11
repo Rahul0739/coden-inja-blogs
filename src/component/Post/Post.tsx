@@ -11,7 +11,7 @@ function Post(Props: IProps) {
     (states) => states.app
   );
   return (
-    <div className="d-flex flex-direction-row flex-wrap justify-content-around">
+    <div className="d-flex flex-direction-row flex-wrap justify-content-between">
       {getPost.map((post: any) => {
         return (
           <div className={styles.posts}>
