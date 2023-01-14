@@ -3,7 +3,7 @@
 ## Writing own blogs made easier for everyone!
 
 <h2 align="center">
-  <a href="https://soumyajitblogs.vercel.app/" target="_blank">coden-inja-blog.netlify.app</a>
+  <a href="https://coden-inja-blogs.netlify.app/" target="_blank">coden-inja-blogs.netlify.app</a>
 </h2>
 
 <div align="center">
@@ -29,25 +29,24 @@
 
 ## Built With
 
-My personal blogpage <a href="http://blogs.soumya-jit.tech/" target="_blank">blogs.soumyajit.tech</a> which features some of my developer blog posts and experiences.<br/>
+My personal blogpage <a href="https://coden-inja-blogs.netlify.app/" target="_blank">coden-inja-blogs.netlify.app</a> which features some of my developer blog posts and experiences.<br/>
 
 This project was built using these technologies.
 
-- Next.js
-- Tailwind Css
-- Dark mode support
+- React.js
+- Bootstrap
+- React-Bootstrap
 - VsCode
-- Vercel
+- Redux
+- React Markdown Extension
 
 ## Features
-
-**🌙 Dark Mode**
 
 **📃 Markdown Support**
 
 **✏️ Easy to customize and write posts of your own**
 
-**🎨 Styled with Tailwind Css**
+**🎨 Styled with Bootstrap Css**
 
 ## Getting Started
 
@@ -74,5 +73,3 @@ To write your own blogs create a markdown file in `_content` folder with the spe
 ### Show your support
 
 Give a ⭐ if you like this website!
-
-<a href="https://www.buymeacoffee.com/soumyajit4419" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
